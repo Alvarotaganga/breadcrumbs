@@ -1,0 +1,102 @@
+html{
+    border: 2px solid rgb(112, 173, 71);
+    padding: 0;
+    height: 90%;
+    box-sizing: border-box;
+    margin: 10px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.content img {
+    width: 100%; 
+    height: auto; 
+    max-width: 600px; 
+    max-height: 400px; 
+    display: block;
+    margin-top: 5%;
+}
+.content{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    justify-content: space-between; 
+    overflow: hidden;
+}
+.content p{
+    width: 100%;
+    max-width: 550px;
+    margin-top: 10%;
+    margin-left: 20px;
+    font-size: 1rem;
+    text-align: justify;
+}
+.content h1{
+    margin-left: 60px;
+    color: rgb(248, 203, 173);
+    text-shadow: 2px 2px 0px rgb(241, 158, 101), -2px -2px 0px rgb(241, 158, 101), 2px -2px 0px rgb(241, 158, 101), -2px 2px 0px rgb(241, 158, 101);
+    
+}
+a.img-btn {
+    background-color: transparent;  
+    border: none;  
+    padding: 0;  
+    display: inline-block;  
+    width: auto;  
+    height: auto;  
+}
+
+a.img-btn img {
+    width: 50px;  
+    height: auto;  
+}
+body{
+    margin: 0;
+    padding: 20px;
+    
+}
+.bebidas-btn {
+    background-color: rgb(189, 215, 238); 
+    color: white; 
+    border: none; 
+}
+
+.bebidas-btn:hover {
+    background-color: rgb(189, 215, 238);
+    color: white;
+    border: none;
+}
+
+.quesos-btn {
+    background-color: rgb(169, 209, 142); 
+    color: white; 
+    border: none; 
+}
+
+.quesos-btn:hover {
+    background-color: rgb(169, 209, 142);  
+    color: white;
+    border: none;
+}
+
+.pasteles-btn {
+    background-color: rgb(240, 10, 10); 
+    color: white; 
+    border: none; 
+}
+
+.pasteles-btn:hover {
+    background-color: rgb(240, 10, 10);  
+    color: white;
+    border: none;
+} 
+.panes-btn {
+    background-color: rgb(244, 177, 131); 
+    color: white; 
+    border: none; 
+}
+
+.panes-btn:hover {
+    background-color: rgb(244, 177, 131); 
+    color: white;
+    border: none;
+}   
